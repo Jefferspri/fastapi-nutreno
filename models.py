@@ -3,15 +3,15 @@ from pydantic import BaseModel
 
 
 class Todo(BaseModel):
-    sex: str
-    age: float 
-    height: float
-    weight: float
-    visual_fat: str
-    goal: str 
-    gym_experience: str
-    work_type: str
-    activity_level: float
-    excercise_ina_week: float
-    excercise_ina_day: float
+    sexo: str
+    edad: float 
+    altura: float
+    peso: float
+    obesidad_visual: str
+    objetivo: str 
+    experiencia_gimnasio: str
+    tipo_trabajo: str
+    nivel_actividad: str
+    ejercicio_semanal: float
+    ejercicio_diario: float
     
